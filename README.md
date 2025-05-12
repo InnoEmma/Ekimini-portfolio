@@ -1,7 +1,7 @@
 
 ## 🧑‍💻 A Portfolio Challenge
 
-This is a simple portfolio website I recreated as part of a personal coding challenge. My friend built a sleek portfolio and challenged me to replicate it from scratch. After 7 hours of deep focus, I managed to build a working version using only HTML, CSS, and JavaScript.
+This is a simple portfolio website I recreated as part of a personal coding challenge. My friend built a sleek portfolio and challenged me to replicate it from scratch. After 10 hours of deep focus, I managed to build a working version using only HTML, CSS, and JavaScript.
 
 ---
 

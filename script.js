@@ -85,3 +85,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   observer.observe(scoreSection);
 });
+
+const observer1 = new IntersectionObserver((entires) => {
+  entires.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+const notes = document.querySelectorAll(".notes");
+notes.forEach((el) => observer1.observe(el));
+console.log(notes);

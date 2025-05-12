@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>A simple portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -22,14 +22,14 @@
           <div class="main-menu nav-container-right">
             <ul class="nav-list">
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="">Project</a>
+                <a href="#project">Project</a>
               </li>
-              <li><a href="">Skills</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li>
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li class="hover">
                 <a href="">Resume </a>
@@ -62,7 +62,7 @@
           </div>
         </div>
       </nav>
-      <div class="container hero-container">
+      <div class="container hero-container" id="about">
         <div class="hero-section">
           <h3>Hello, my name is</h3>
           <h1>Ekemini Udofia</h1>
@@ -156,7 +156,7 @@
         </div>
       </div>
 
-      <div class="container projects">
+      <div class="container projects" id="project">
         <div class="about-me-heading">
           <div class="me-line">
             <h3></h3>
@@ -259,7 +259,7 @@
           <h2>Other Noteworthy Projects</h2>
         </div>
         <div class="note-cards">
-          <div class="first-note-card notes">
+          <div class="first-note-card notes hidden">
             <h3>Smart Home Monitor</h3>
             <p>
               ESP8266-based temperature and humidity monitoring system with
@@ -271,7 +271,7 @@
               <li class="hover">C++</li>
             </ul>
           </div>
-          <div class="second-note-card notes">
+          <div class="second-note-card notes hidden">
             <h3>Digital Clock</h3>
             <p>
               Custom digital clock with alarm functions and temperature display
@@ -286,7 +286,7 @@
         </div>
       </div>
 
-      <div class="container pro">
+      <div class="container pro" id="skills">
         <div class="about-me-heading">
           <div class="me-line">
             <h3></h3>
@@ -504,7 +504,7 @@
         </ul>
       </div>
 
-      <div class="contact container">
+      <div class="contact container" id="contact">
         <div class="about-me-heading">
           <div class="me-line">
             <h3></h3>

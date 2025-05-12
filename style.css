@@ -59,6 +59,22 @@ a:hover {
   padding: 1.5rem 5rem 0 5rem;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+  /* padding: 1.5rem 5rem 0 5rem; */
+}
+
+.navbar.navbar--scroll {
+  background-color: rgba(25, 41, 21, 0.6);
+  backdrop-filter: blur(10px);
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -653,6 +669,10 @@ textarea {
   font-size: 1.1rem;
 }
 
+.sendbtn:hover {
+  background: var(--hover-strong);
+}
+
 textarea {
   height: 150px;
 }
@@ -681,4 +701,3 @@ footer p {
     display: block;
   }
 }
-

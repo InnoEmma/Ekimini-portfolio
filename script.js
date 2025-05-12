@@ -16,6 +16,15 @@ loadContent();
 nav();
 adding();
 
+window.addEventListener("scroll", () => {
+  const nav = document.querySelector(".navbar");
+  if (window.scrollY > 0) {
+    nav.classList.add("navbar--scroll");
+  } else if (window.scrollY < 0) {
+    nav.classList.remove("navbar--scroll");
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const viewDetailButton = document.querySelector(".detail");
   const popupContainer = document.querySelector(".pop-up-container");
